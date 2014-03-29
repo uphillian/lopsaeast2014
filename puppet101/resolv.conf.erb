@@ -1,0 +1,8 @@
+/etc/puppet/manifests/resolv.conf.erb
+# resolv.conf build by Puppet
+domain <%= @domain %>
+search <% searchdomains.each do |domain| -%>
+ <%= domain -%><% end -%> <%= @domain %>
+<% nameservers.each do |server| -%>
+nameserver <%= server %>
+<% end -%>

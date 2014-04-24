@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read oldrev newrev refname
+
+branch=${refname#*\/*\/}
+if [ -z $branch ]; then
+  echo "Error: Branch undefined"
+  exit 10
+fi
+
+/usr/bin/update-puppet-workers -b $branch

@@ -1,0 +1,4 @@
+Create a file called /home/lopsa/welcome that contains the following, where
+$hostname is the hostname of the current machine.
+--
+Welcome to $hostname

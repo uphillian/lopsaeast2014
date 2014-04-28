@@ -1,0 +1,5 @@
+Use factor to determine how much free memory your virtual machine has.
+Consume a large amount of memory with bash. (Hint: One way is to recursively
+define a variable, you'll get exponential growth)
+Verify that the free memory count has gone down.
+Release the memory and check again.

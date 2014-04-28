@@ -1,0 +1,11 @@
+Use puppet to install the httpd package and start the httpd service.
+Install the following into /var/www/html/index.html, the file should be
+owned by apache and have mode 0644.
+--
+<html>
+<head><title>LOPSA-East 2014</title></head>
+Welcome to Puppet 101 at LOPSA-East 2014
+--
+* Note that /var/www/html will not exist until after the httpd package 
+  has been installed.
+  (hint: Trifecta)

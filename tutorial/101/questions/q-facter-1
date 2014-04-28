@@ -1,0 +1,8 @@
+Use factor to determine your nodes operating system family (osfamily)
+* Extra credit, install factor on your laptop and get the answer there as well.
+Windows:
+http://docs.puppetlabs.com/windows/installing.html
+Mac:
+http://downloads.puppetlabs.com/mac/
+Linux:
+http://yum.puppetlabs.com/ or http://apt.puppetlabs.com/

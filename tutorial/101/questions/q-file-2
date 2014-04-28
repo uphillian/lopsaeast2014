@@ -1,0 +1,2 @@
+Use puppet to create a /home/lopsa/message file to contain the contents of the
+/etc/motd file.

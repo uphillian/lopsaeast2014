@@ -1,0 +1,3 @@
+Use puppet to create /home/lopsa/motd file to the following:
+--
+Welcome to LOPSA-East!

@@ -1,0 +1,9 @@
+facter memoryfree
+LOPSA="LOPSA consumes large amounts of memory"
+for x in $(seq 1 20)
+do
+  LOPSA="$LOPSA $LOPSA"
+done
+facter memoryfree
+LOPSA=""
+facter memoryfree
